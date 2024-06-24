@@ -31,9 +31,9 @@ public class TabelModelPegawai extends AbstractTableModel {
     public String getColumnName(int column) {
         return switch (column) {
             case 0 -> "Kode Pegawai";
-            case 1 -> "Name Pegawai";
+            case 1 -> "namapeg";
             case 2 -> "Alamat";
-            case 3 -> "Jenis Kelamin";
+            case 3 -> "jkel";
             case 4 -> "Jabatan";
             case 5 -> "Username";
             case 6 -> "Password";

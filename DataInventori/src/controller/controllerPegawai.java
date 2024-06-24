@@ -23,6 +23,7 @@ public class controllerPegawai {
     daoPegawai daoPeg = new daoPegawai();
     Pegawai tambahPeg = new Pegawai();
     
+    
     public controllerPegawai(FormPegawai frame) {
         this.frame = frame;
         listPeg = daoPeg.getData();
@@ -105,4 +106,5 @@ public class controllerPegawai {
     public void keluar() {
         frame.dispose();
     }
+
 }

@@ -7,6 +7,26 @@
         <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="FormPegawai_buttonGroupJK"/>
       </AuxValues>
     </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel9"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -34,9 +54,8 @@
           <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
           <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,17 +79,17 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="66" green="cc" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
                   <Component id="jLabel1" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -98,7 +117,7 @@
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="99" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
@@ -106,7 +125,7 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                           <Component id="jLabel4" min="-2" pref="54" max="-2" attributes="0"/>
@@ -118,26 +137,28 @@
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="txtKodePeg" linkSize="1" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
-                      <Component id="txtNamaPeg" linkSize="1" alignment="0" min="-2" pref="179" max="-2" attributes="0"/>
-                      <Component id="txtAlamat" linkSize="1" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="txtJabatan" linkSize="1" alignment="0" min="-2" pref="219" max="-2" attributes="0"/>
+                      <Component id="txtKodePeg" linkSize="1" alignment="0" pref="126" max="32767" attributes="0"/>
+                      <Component id="txtNamaPeg" linkSize="1" alignment="0" pref="179" max="32767" attributes="0"/>
+                      <Component id="txtAlamat" linkSize="1" alignment="0" pref="180" max="32767" attributes="0"/>
+                      <Component id="txtJabatan" linkSize="1" alignment="0" pref="219" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="rbLaki" min="-2" pref="98" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="rbPerempuan" min="-2" pref="98" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="txtUserName" min="-2" pref="115" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="txtPassword" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtUserName" alignment="0" pref="115" max="32767" attributes="0"/>
+                          </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="btnCek" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="txtPassword" min="-2" pref="89" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="87" max="32767" attributes="0"/>
               </Group>
@@ -166,31 +187,24 @@
                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtJabatan" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="15" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="rbLaki" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="rbPerempuan" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtUserName" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btnCek" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtUserName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCek" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtPassword" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace pref="59" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -286,7 +300,10 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jScrollPane1" alignment="0" pref="142" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="245" max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
       </Layout>
@@ -347,7 +364,7 @@
     <Container class="javax.swing.JPanel" name="jPanel4">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="99" green="ff" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
