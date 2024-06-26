@@ -122,6 +122,7 @@ public class MenuUtama extends javax.swing.JFrame {
 
     private void cariPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cariPegawaiActionPerformed
         // TODO add your handling code here:
+        cMenu.FromCariPegawai();
     }//GEN-LAST:event_cariPegawaiActionPerformed
 
     /**
